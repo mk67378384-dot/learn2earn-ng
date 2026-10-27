@@ -1,0 +1,4 @@
+:root { --blue:#0b5ed7; --green:#16a34a; --bg:#f4f9ff; --text:#10243e; }
+* { box-sizing: border-box; }
+body { margin:0; font-family: system-ui, sans-serif; background:var(--bg); color:var(--text); }
+.hero { padding:3rem 1.25rem; text-align:center; background:linear-gradient(135deg,var(--blue),var(--green)); color:#fff; }
